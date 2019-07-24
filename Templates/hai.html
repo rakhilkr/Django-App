@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>aaa</title>
+</head>
+<body>
+<h1>WELCOME</h1>
+
+
+<form method="post">
+
+    {% csrf_token %}
+
+
+
+
+    1st number : <input type="text" placeholder="enter 1st number" name="first">
+
+    2nd number : <input type="text" placeholder="enter 2nd number" name="second">
+
+    <input type="submit" value="Submit">
+<br>
+
+    <h1> {{ sum }} </h1>
+
+</form>
+
+
+
+</body>
+</html>

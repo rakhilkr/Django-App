@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>factorial</title>
+</head>
+<body>
+<form method="post">
+
+     {% csrf_token %}
+
+    no:<input type="text" placeholder="enter number" name="num">
+
+    <input type="submit" value="OK">
+    <br>
+
+    <h1>  {{ fact }} </h1>
+
+</form>
+</body>
+</html>
